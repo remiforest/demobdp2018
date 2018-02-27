@@ -11,12 +11,22 @@ from mapr_streams_python import Producer
 parser = argparse.ArgumentParser(description='Launch a car stream producer')
 parser.add_argument('--country',help='collector country')
 parser.add_argument('--city',help='collector city')
-parser.add_argument('--reset',help='reset data',action="store_true")
+parser.add_argument('--reset',help='delete historical data',action="store_true")
 args = parser.parse_args()
 
 if not args.country or not args.city:
     print("--country and --city required")
     sys.exit()
+
+
+# Retrieves current cluster name
+
+
+with open('/opt/mapr/conf/mapr-clusters.conf', 'r') as f:
+    first_line = f.readline()
+    cluster_name = first_line.split(' ')[0]
+print(cluster_name)
+sys.exit()
 
 stream_path = '/mapr/global.mapr.com/countries/' + args.country  +'/streams/'
 
