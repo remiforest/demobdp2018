@@ -1,9 +1,0 @@
-DEBUG:root:Port : 8006
-DEBUG:root:Cluster name : global.mapr.com
-DEBUG:root:update consumers
-DEBUG:root:Current consumers :
-DEBUG:root:{}
-DEBUG:root:Streams to consume :
-DEBUG:root:[]
-DEBUG:root:Final consumers :
-DEBUG:root:{}
