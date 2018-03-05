@@ -11,7 +11,7 @@ from mapr_streams_python import Consumer, KafkaError
 import maprdb
 import logging
 
-logging.basicConfig(filename='globalfront.log',level=logging.DEBUG)
+logging.basicConfig(filename='logs/globalfront.log',level=logging.DEBUG)
 
 
 # Retrieves current cluster name

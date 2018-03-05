@@ -14,7 +14,7 @@ RAW_TABLE_PATH = "/mapr/global.mapr.com/tables/raw"
 GKM_TABLE_PATH = "/mapr/global.mapr.com/tables/cargkm"
 COUNT_TABLE_PATH = "/mapr/global.mapr.com/tables/count"
 
-logging.basicConfig(filename='centralprocess.log',level=logging.DEBUG)
+logging.basicConfig(filename='logs/centralprocess.log',level=logging.DEBUG)
 
 consumers = {}
 

@@ -24,7 +24,7 @@ consumers = {}
 country = args.country
 port = int(args.port)
 
-logging.basicConfig(filename='localfront_'+country+'.log',level=logging.DEBUG)
+logging.basicConfig(filename='logs/localfront_'+country+'.log',level=logging.DEBUG)
 
 logging.debug("Port : {}".format(port))
 

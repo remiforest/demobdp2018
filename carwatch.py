@@ -24,7 +24,7 @@ country = args.country
 city = args.city
 traffic = int(args.traffic)
 
-logging.basicConfig(filename='carwatch_'+country+'_'+city+'.log',level=logging.DEBUG)
+logging.basicConfig(filename='logs/carwatch_'+country+'_'+city+'.log',level=logging.DEBUG)
 
 # Retrieves current cluster name
 with open('/opt/mapr/conf/mapr-clusters.conf', 'r') as f:
