@@ -1,0 +1,189 @@
+DEBUG:root:Cluster name : global.mapr.com
+DEBUG:root:creating stream /mapr/global.mapr.com/countries/france/streams/Paris
+DEBUG:root:stream created
+DEBUG:root:creating producer for /mapr/global.mapr.com/countries/france/streams/Paris
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Injecting ...
+DEBUG:root:600 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:1200 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:1800 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:2400 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:3000 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:3600 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:4200 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:4800 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:5400 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:6000 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:6600 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:7200 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:7800 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:8400 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:9000 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:9600 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:10200 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:10800 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:11400 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:12000 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:12600 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:13200 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:13800 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:14400 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:15000 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:15600 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:16200 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:16800 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:17400 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:18000 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:18600 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:19200 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:19800 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:20400 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:21000 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:21600 cars injected
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']
+DEBUG:root:Models loaded:
+DEBUG:root:['Citroen C3', 'Citroen C4', 'Citroen C5', 'DS 3', 'DS 4', 'DS 5', 'Peugeot 208', 'Peugeot 308', 'Peugeot 508', 'Renault Twingo', 'Renault Megane', 'Renault Kadjar', 'VW Polo', 'VW Golf', 'VW Passat', 'Ford Fiesta', 'Ford Focus', 'Ford Mondeo', 'Mercedes Classe A', 'Mercedes Classe B', 'Mercedes Classe C', 'BMW Serie 3', 'BMW Serie 5', 'BMW Serie 7']

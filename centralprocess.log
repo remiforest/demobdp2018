@@ -1,0 +1,142 @@
+INFO:maprdb.connection:Starting JVM
+DEBUG:root:subscribed to /mapr/global.mapr.com/streams/Paris:default_topic
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22019
+DEBUG:root:subscribed to /mapr/global.mapr.com/streams/London:default_topic
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 491 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22510
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22510
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22510
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22510
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22510
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 22510
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 2562 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 25072
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 403 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 25475
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 405 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 25880
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 402 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 26282
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 402 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 26684
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 253 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 26937
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 26937
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 26937
+DEBUG:root:polling /mapr/global.mapr.com/streams/London
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/London
+DEBUG:root:polling /mapr/global.mapr.com/streams/Paris
+DEBUG:root:pulled 0 events from /mapr/global.mapr.com/streams/Paris
+DEBUG:root:Total event pulled : 26937
+DEBUG:root:polling /mapr/global.mapr.com/streams/London

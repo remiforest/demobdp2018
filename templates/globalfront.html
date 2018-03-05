@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='globalfront.css')}}">
+
+    <title>MapR Demo - Global UI</title>
+  </head>
+  <body>
+    <div class="row">
+      <img src="{{url_for('static', filename='header.png')}}" class="img-fluid" style="width:100%;height:120px" alt="Responsive image">
+    </div>
+    <div class="row">
+      <div class="col-md-2 pl-5 pr-5">
+        <div class="">Events replicated</div>
+        <div class="events" id="event_counter">
+            <p class="counter-count" id="event_count" data-count="0"></p>
+        </div>
+        <button id="replicate_streams" class="btn btn-danger btn-sm">Replicate streams</button><p><p>
+        <div id="stream_selector">
+          <input name="stream" id="all_streams" type="checkbox" checked="checked">All cities<p>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="row p-5" >
+          <div class="col-md-6">
+            <div class="radio">
+              <label class="radio-inline"><input id="consolidate_radio" type="radio" name="consolidate_streams" checked="checked">Consolidated</label>
+              <label class="radio-inline"><input type="radio" name="consolidate_streams">Individual</label>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="radio">
+              <label class="radio-inline"><input id="count_radio" type="radio" name="pollution_count" checked="checked">Vehicle count</label>
+              <label class="radio-inline"><input type="radio" name="pollution_count">CO2 emissions</label>
+            </div>
+          </div>
+        </div>
+        <div id="charts" class="row"></div>
+      </div>
+      <div class="col-md-2 pl-5 pr-5">
+        <div>Countries</div>
+        <div class="row">
+            <div class="col-md-8"><input type="text" id="new_country"></div>
+            <div class="col-md-4"><button id="deploy_new_country_btn" class="btn btn-danger btn-sm">Deploy</button></div>
+        </div>
+        <div id="countries"></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="{{url_for('static', filename='jquery-3.3.1.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='popper.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='highcharts.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='exporting.js')}}"></script>
+
+    <script type="text/javascript" src="{{url_for('static', filename='globalfront.js')}}"></script>
+
+    <script>
+        
+          $( document ).ready(function() {;
+              console.log("ready")
+              update_stream_selector();
+              update_charts();
+              update_events();
+              get_countries();
+          });
+
+          $(".radio-inline").change(function(){
+              count = $("#count_radio").is(':checked');
+              if (count){title_desc = "count"}else{title_desc = "emissions"}
+              consolidate = $("#consolidate_radio").is(':checked');
+              $("#charts").empty();
+              create_charts()
+          });
+
+          $("#stream_selector").change(function(e){
+              cities = []
+              if(e.target.id == "all_streams"){
+                console.log("all_stream");
+                if (e.target.checked){
+                  console.log("check all");
+                  $('#stream_selector :input').prop('checked', true);  
+                }else{
+                  console.log("uncheck all");
+                  $('#stream_selector :input').prop('checked', false); 
+                }
+              }else{
+                if (! e.target.checked){
+                  $('#all_streams').prop('checked', false); 
+                }
+              }
+
+              $(".city").each(function(){
+                  if(this.checked == true){
+                      console.log(this);
+                      input_city = $(this).data("city")
+                      if (input_city != "all"){
+                        cities.push(input_city);
+                      }
+                  }
+              });
+              console.log("cities :");
+              console.log(cities);
+              $("#charts").empty();
+              create_charts();
+              if (!updating_charts){
+                update_charts();
+              }
+
+          });
+
+
+         $("#replicate_streams").click(function(){
+            console.log("replic");
+            $("#replicate_streams").text("Replicating ...");
+            $.ajax({
+                url: 'replicate_streams',
+                type: 'get',
+                success:function(data){
+                    setTimeout(function(){
+                      $("#replicate_streams").text("Replicate streams");
+                    }, 1000 * 10);
+                  }
+            });
+          });
+
+
+    </script>
+
+  </body>
+</html>

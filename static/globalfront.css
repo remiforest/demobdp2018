@@ -1,0 +1,31 @@
+.counter
+{
+    background-color: #eaecf0;
+    text-align: center;
+}
+.events
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.counter-count
+{
+    font-size: 18px;
+    background-color: #333333;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    width: 125px;
+    height: 30px;
+    border-radius: .2rem;
+    display: inline-block;
+}
+
+.events-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}

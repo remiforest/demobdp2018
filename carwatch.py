@@ -6,11 +6,13 @@ import time
 import json
 import os
 import argparse
+import logging
 from mapr_streams_python import Producer
 
 parser = argparse.ArgumentParser(description='Launch a car stream producer')
 parser.add_argument('--country',help='collector country')
 parser.add_argument('--city',help='collector city')
+parser.add_argument('--traffic',help='city traffic (cars/sec)', default=10)
 parser.add_argument('--reset',help='delete historical data',action="store_true")
 args = parser.parse_args()
 
@@ -18,117 +20,117 @@ if not args.country or not args.city:
     print("--country and --city required")
     sys.exit()
 
+country = args.country
+city = args.city
+traffic = int(args.traffic)
+
+logging.basicConfig(filename='carwatch_'+country+'_'+city+'.log',level=logging.DEBUG)
 
 # Retrieves current cluster name
-
-
 with open('/opt/mapr/conf/mapr-clusters.conf', 'r') as f:
     first_line = f.readline()
     cluster_name = first_line.split(' ')[0]
-print(cluster_name)
-sys.exit()
+    logging.debug('Cluster name : {}'.format(cluster_name))
 
-stream_path = '/mapr/global.mapr.com/countries/' + args.country  +'/streams/'
+stream_path = '/mapr/'+ cluster_name + '/countries/' + country  +'/streams/'
 
-# if not os.path.isdir(stream_path):
-#     os.system("mkdir -p " + stream_path)
 
-stream_name = args.city
+# Create stream folder if not exists
+if not os.path.isdir(stream_path):
+    os.system("mkdir -p " + stream_path)
+
+stream_name = city
 stream = stream_path + stream_name
 
-# if not os.path.islink(stream):
-#     print("creating stream {}".format(stream))
-#     os.system('maprcli stream create -path ' + stream + ' -produceperm p -consumeperm p -topicperm p -copyperm p -adminperm p')
-#     print("stream created")
+# Test if stream exists
+if not os.path.islink(stream):
+    logging.debug("creating stream {}".format(stream))
+    os.system('maprcli stream create -path ' + stream + ' -produceperm p -consumeperm p -topicperm p -copyperm p -adminperm p')
+    logging.debug("stream created")
 
-# if args.reset :
-#     print("deleting stream {}".format(stream))
-#     os.system("maprcli stream delete -path " + stream)
-#     print("recreating stream {}".format(stream))
-#     os.system("maprcli stream create -path " + stream + " -produceperm p -consumeperm p -topicperm p -copyperm p -adminperm p")
-#     print("stream created")
+if args.reset :
+    logging.debug("deleting stream {}".format(stream))
+    os.system("maprcli stream delete -path " + stream)
+    logging.debug("recreating stream {}".format(stream))
+    os.system("maprcli stream create -path " + stream + " -produceperm p -consumeperm p -topicperm p -copyperm p -adminperm p")
+    logging.debug("stream created")
 
 
 
 
-print("creating producer for {}".format(stream))
+logging.debug("creating producer for {}".format(stream))
 p = Producer({'streams.producer.default.stream': stream})
 
 
-# Load cars from json file
-carfile = "/mapr/global.mapr.com/data/carbycity.json"
-cartable = "/mapr/global.mapr.com/data/carbycity"
+
+def generate_models_distribution():
+    # Load cars models from json file
+    carfile = "cars.json"
+    models = []
+    with open(carfile) as f:
+        for line in f:
+            while True:
+                try:
+                    car = json.loads(line)
+                    break
+                except ValueError:
+                    # Not yet a complete JSON value
+                    line += next(f)
+            models.append(car["model"])
+
+    logging.debug("Models loaded:")
+    logging.debug(models)
 
 
-# connection = connect()
-# table = connection.get(cartable)
-# print(table.find_by_id("Paris"))
+    # Generate car distribution
+    model_distrib = []
+    for model in models:
+        rand = random.randint(0,100)
+        if 15<rand<85:
+            for i in range(rand):
+                model_distrib.append(model)
+
+    return model_distrib
 
 
-with open(carfile) as f:
-    for line in f:
-        while True:
-            try:
-                city_json = json.loads(line)
-                break
-            except ValueError:
-                # Not yet a complete JSON value
-                line += next(f)
-        models = city_json["cars"]
-        traffic = float(city_json["traffic"])
-        if city_json["_id"] == args.city:
-            break
+def generate_color_distribution():
+    # Generate color distribution
+    colors = []
+    colors.append(("black",random.randint(0,30)))
+    colors.append(("white",random.randint(0,30)))
+    colors.append(("grey",random.randint(0,30)))
+    colors.append(("blue",random.randint(0,30)))
+    colors.append(("red",random.randint(0,30)))
+    colors.append(("brown",random.randint(0,30)))
+    colors.append(("green",random.randint(0,30)))
 
-total_model_weight = 0
-for model in models:
-    total_model_weight += model["share"]
+    color_distrib = []
+    for color in colors:
+        weight = color[1]
+        for i in range(weight):
+            color_distrib.append(color[0])
 
-# print(total_model_weight)
-
-
-colors = []
-colors.append(("black",22))
-colors.append(("white",20))
-colors.append(("grey",18))
-colors.append(("blue",10))
-colors.append(("red",6))
-colors.append(("brown",3))
-colors.append(("green",1))
-
-total_color_weight = 0
-for c in colors:
-    total_color_weight += c[1]
+    return color_distrib
 
 
-model_distrib = []
-for model in models:
-    weight = model["share"]
-    for i in range(weight):
-        model_distrib.append(model["car"])
-
-color_distrib = []
-for color in colors:
-    weight = color[1]
-    for i in range(weight):
-        color_distrib.append(color[0])
+model_distrib = generate_models_distribution()
+color_distrib = generate_models_distribution()
 
 
-print("Injecting ...")
+logging.debug("Injecting ...")
+
 nb_cars = 0
 while True:
-    # if not os.path.exists(stream):
-    #     print("recreating stream {}".format(stream))
-    #     os.system('maprcli stream create -path ' + stream + ' -produceperm p -consumeperm p -topicperm p -copyperm p -adminperm p')
-    #     p = Producer({'streams.producer.default.stream':stream})
-    car_model = model_distrib[random.randint(0,total_model_weight-1)]
-    car_color = color_distrib[random.randint(0,total_color_weight-1)]
-    message = {"timestamp":int(time.time()),"country":args.country,"city":args.city,"color":car_color,"model":car_model}
-    # print(message)
+    car_model = model_distrib[random.randint(0,len(model_distrib)-1)]
+    car_color = color_distrib[random.randint(0,len(color_distrib)-1)]
+    message = {"timestamp":int(time.time()),"country":country,"city":city,"color":car_color,"model":car_model}
     p.produce("default_topic", json.dumps(message))
     time.sleep(1/traffic)
-    # p.flush()
     nb_cars += 1
-    if nb_cars % 10 == 0:
-        print("{} cars injected".format(nb_cars))
+    if nb_cars % (traffic * 10) == 0:
+        logging.debug("{} cars injected".format(nb_cars))
+        model_distrib = generate_models_distribution()
+        color_distrib = generate_models_distribution()
+
 
 

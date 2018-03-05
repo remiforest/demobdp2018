@@ -1,0 +1,575 @@
+DEBUG:root:Port : 8002
+DEBUG:root:Cluster name : global.mapr.com
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug: * Running on http://0.0.0.0:8002/ (Press CTRL+C to quit)
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:26] "GET / HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:26] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:26] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:28] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:30] "POST /deploy_new_city HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:30] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:31] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:32] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:subscribing to /mapr/global.mapr.com/countries/uk/streams/London:default_topic
+DEBUG:root:subscribed to /mapr/global.mapr.com/countries/uk/streams/London:default_topic
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:36] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:36] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:38] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:40] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:42] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:43] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:46] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:48] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:49] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:52] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:54] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:55] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:06:58] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:00] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:01] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:04] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:06] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:07] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:10] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:12] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:13] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:16] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:18] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:19] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:22] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:23] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:24] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:26] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:28] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:28] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:31] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:34] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:34] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:37] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:40] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:40] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:43] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:46] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:46] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:49] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:52] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:52] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:55] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:58] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:07:58] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:08:01] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:08:04] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:08:04] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:08:07] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:08:10] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:08:10] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:['London']
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:Streams to consume :
+DEBUG:root:['/mapr/global.mapr.com/countries/uk/streams/London']
+DEBUG:root:Final consumers :
+DEBUG:root:{'/mapr/global.mapr.com/countries/uk/streams/London': <cimpl.Consumer object at 0x7fa7793739a8>}
+DEBUG:root:polling /mapr/global.mapr.com/countries/uk/streams/London
+INFO:werkzeug:10.0.0.50 - - [06/Mar/2018 00:08:13] "POST /get_stream_data HTTP/1.1" 200 -

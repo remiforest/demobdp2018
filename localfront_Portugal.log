@@ -1,0 +1,1774 @@
+DEBUG:root:Port : 8002
+DEBUG:root:Cluster name : global.mapr.com
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 262-085-697
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:13] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:17] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:19] "GET /get_all_streams HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:19] "GET /get_events_count HTTP/1.1" 404 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:19] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:23] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:24] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:28] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:30] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:39] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:41] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:46] "GET /get_all_streams HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:46] "GET /static/jquery-3.3.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:47] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:47] "GET /static/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:47] "GET /static/localfront.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:47] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:47] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:47] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:47] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:49] "GET /static/jquery-3.3.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:49] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:49] "GET /static/highcharts.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:49] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:49] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:49] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:49] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:52] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:52] "GET /static/jquery-3.3.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:52] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:52] "GET /static/highcharts.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:53] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:53] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:53] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:53] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:55] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:58] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:04:59] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:00] "GET /static/globalfront.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:00] "GET /static/jquery-3.3.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:00] "GET /static/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:00] "GET /static/exporting.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:00] "GET /static/globalfront.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:00] "GET /static/header.png HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:00] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:00] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:00] "GET /get_countries HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:04] "GET /static/jquery-3.3.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:04] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:04] "GET /static/highcharts.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:04] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:04] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:04] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:04] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:07] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:07] "GET /static/globalfront.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:07] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:07] "GET /static/highcharts.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:07] "GET /static/header.png HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:07] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:07] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:07] "GET /get_events_count HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:07] "GET /get_countries HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:13] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:14] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "GET /static/jquery-3.3.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "GET /static/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "GET /static/exporting.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "GET /static/globalfront.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "GET /get_events_count HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:16] "GET /get_countries HTTP/1.1" 404 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:19] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:19] "GET /static/globalfront.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:20] "GET /static/jquery-3.3.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:20] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:20] "GET /static/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:20] "GET /get_events_count HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:20] "GET /get_countries HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:22] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:22] "GET /static/globalfront.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:22] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:22] "GET /static/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:22] "GET /static/exporting.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:22] "GET /static/globalfront.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:22] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:22] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:22] "GET /static/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:23] "GET /get_events_count HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:23] "GET /get_countries HTTP/1.1" 404 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:29] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:34] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:38] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:39] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:40] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:42] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:44] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:51] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:55] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:05:58] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:00] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:02] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:06] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:09] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:11] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:11] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:17] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:20] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:22] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:26] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:28] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:30] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:32] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:32] "GET /static/globalfront.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:32] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:32] "GET /static/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:32] "GET /static/exporting.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:32] "GET /static/header.png HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:33] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:33] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:33] "GET /get_all_streams HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:33] "GET /get_events_count HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:33] "GET /get_countries HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:34] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:34] "GET /static/jquery-3.3.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:34] "GET /static/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:34] "GET /static/exporting.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:34] "GET /static/globalfront.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:35] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:35] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:35] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:35] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:35] "GET /get_countries HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:37] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:37] "GET /static/globalfront.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:37] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:37] "GET /static/highcharts.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:37] "GET /static/globalfront.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:37] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:37] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:37] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:37] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:37] "GET /get_countries HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:39] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:39] "GET /static/globalfront.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:39] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:39] "GET /static/exporting.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:39] "GET /static/globalfront.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:39] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:39] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:39] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:39] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:39] "GET /get_countries HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:41] "GET /static/header.png HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:41] "GET /static/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:41] "GET /static/exporting.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:41] "GET /static/localfront.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:41] "GET /static/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:43] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:44] "GET /static/globalfront.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:44] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:44] "GET /static/highcharts.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:44] "GET /static/popper.min.js.map HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:44] "GET /static/bootstrap.min.js.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:44] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:44] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:44] "GET /get_countries HTTP/1.1" 404 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:48] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:51] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:55] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:59] "POST /deploy_new_country HTTP/1.1" 404 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:06:59] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:00] "GET /get_events_count HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:06] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:True
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:08] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:09] "GET /static/globalfront.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:09] "GET /static/jquery-3.3.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:09] "GET /static/highcharts.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:09] "GET /static/header.png HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:09] "GET /static/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:09] "GET /get_events_count HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:09] "GET /get_countries HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:11] "GET /static/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:11] "GET /static/globalfront.css HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:11] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:11] "GET /static/highcharts.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:11] "GET /static/header.png HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:11] "GET /static/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:11] "GET /get_events_count HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:11] "GET /get_countries HTTP/1.1" 404 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:13] "GET /static/jquery-3.3.1.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:13] "GET /static/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:13] "GET /static/highcharts.js HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:13] "GET /static/bootstrap.min.css.map HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:16] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:18] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:22] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:24] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:35] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:42] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:44] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:46] "GET /get_all_streams HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:57] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:07:59] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:02] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:04] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:06] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:08] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:15] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:17] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:19] "GET /get_all_streams HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:24] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:30] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:Port : 8002
+DEBUG:root:Cluster name : global.mapr.com
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug: * Running on http://0.0.0.0:8002/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:root:Port : 8002
+DEBUG:root:Cluster name : global.mapr.com
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 262-085-697
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:40] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:Port : 8002
+DEBUG:root:Cluster name : global.mapr.com
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:43] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:45] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:50] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:54] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:08:57] "GET /get_all_streams HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:02] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:03] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:07] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:09] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:11] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:16] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:18] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:20] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:22] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:29] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:33] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:35] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:38] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:40] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:42] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:44] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:46] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:55] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:57] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:09:59] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:02] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:07] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:08] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:10] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:13] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:15] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:17] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:18] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:19] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:21] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:23] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:26] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:30] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:34] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:39] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:45] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:47] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:51] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:10:56] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:02] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:05] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:07] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:09] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:12] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:14] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:18] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:20] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:22] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:27] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:29] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:31] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:33] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:35] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:38] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:40] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:44] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:45] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:51] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:53] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:56] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:11:57] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:04] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:08] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:10] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:12] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:15] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:17] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:21] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:23] "GET /get_all_streams HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:26] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:28] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:30] "POST /get_stream_data HTTP/1.1" 200 -
+DEBUG:root:get stream data
+DEBUG:root:variables :
+DEBUG:root:[]
+DEBUG:root:True
+DEBUG:root:False
+DEBUG:root:update consumers
+DEBUG:root:Current consumers :
+DEBUG:root:{}
+DEBUG:root:Streams to consume :
+DEBUG:root:[]
+DEBUG:root:Final consumers :
+DEBUG:root:{}
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:32] "POST /get_stream_data HTTP/1.1" 200 -
+INFO:werkzeug:10.0.0.50 - - [05/Mar/2018 18:12:34] "GET /get_all_streams HTTP/1.1" 200 -
