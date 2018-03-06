@@ -69,10 +69,10 @@ def update_consumers(): # Updates the active consumers
   logging.debug("update consumers")
   global consumers
   streams = get_available_streams(streams_path)
-  logging.debug("Current consumers :")
-  logging.debug(consumers)
-  logging.debug("Streams to consume :")
-  logging.debug(streams)
+  # logging.debug("Current consumers :")
+  # logging.debug(consumers)
+  # logging.debug("Streams to consume :")
+  # logging.debug(streams)
   
   # clean consumers
   consumers_to_remove = []
@@ -80,8 +80,8 @@ def update_consumers(): # Updates the active consumers
     if stream not in streams:
       consumers_to_remove.append(stream)
   if len(consumers_to_remove):
-    logging.debug("consumers to remove :")
-    logging.debug(consumers_to_remove)
+    # logging.debug("consumers to remove :")
+    # logging.debug(consumers_to_remove)
     for consumer_to_remove in consumers_to_remove:
       consumers[consumer_to_remove].close()
       del consumers[consumer_to_remove]
@@ -94,8 +94,8 @@ def update_consumers(): # Updates the active consumers
       consumers[stream] = Consumer({'group.id': group,'default.topic.config': {'auto.offset.reset': 'earliest'}})
       consumers[stream].subscribe([stream+":default_topic"])
       logging.debug("subscribed to {}:{}".format(stream,"default_topic"))
-  logging.debug("Final consumers :")
-  logging.debug(consumers)
+  # logging.debug("Final consumers :")
+  # logging.debug(consumers)
 
 
 
@@ -124,10 +124,10 @@ def get_stream_data(): # Returns all stream data since last poll
   count = request.form["count"] == 'true'
   consolidate = request.form["consolidate"] == 'true'
 
-  logging.debug("variables :")
-  logging.debug("cities : {}".format(cities))
-  logging.debug("count : {}".format(count))
-  logging.debug("consolidate : {}".format(consolidate))
+  # logging.debug("variables :")
+  # logging.debug("cities : {}".format(cities))
+  # logging.debug("count : {}".format(count))
+  # logging.debug("consolidate : {}".format(consolidate))
 
   # updating consumers to make sure we don't miss data
   update_consumers()
@@ -159,8 +159,8 @@ def get_stream_data(): # Returns all stream data since last poll
           running = False
         else:
           running = False
-  logging.debug("raw data :")
-  logging.debug(raw_data)
+  # logging.debug("raw data :")
+  # logging.debug(raw_data)
 
   # format data
   if consolidate:
@@ -175,8 +175,8 @@ def get_stream_data(): # Returns all stream data since last poll
     for stream,data in raw_data.items():
       count_data[stream.split('/')[-1]] = data
 
-  logging.debug("count data : ")
-  logging.debug(count_data)
+  # logging.debug("count data : ")
+  # logging.debug(count_data)
 
 
   # convert to gkm if required
@@ -195,8 +195,8 @@ def get_stream_data(): # Returns all stream data since last poll
           stream_data[city]["count"] = model_count
   else:
     stream_data = count_data
-  logging.debug("stream data :")
-  logging.debug(stream_data)
+  # logging.debug("stream data :")
+  # logging.debug(stream_data)
 
   return json.dumps(stream_data)
 
@@ -236,7 +236,7 @@ def get_countries(): # Returns the number of events in the raw db
   countries = []
   for c in country_table.find():
     countries.append(c)
-  logging.debug(countries)
+  # logging.debug(countries)
   return json.dumps({"countries":countries})
 
 @app.route('/deploy_new_country',methods=['POST'])
@@ -263,15 +263,44 @@ def deploy_country():
 @app.route('/remove_country',methods=['POST'])
 def remove_country():
   country = request.form['country']
+  
+  # Remove the country in the countries db
   db = open_db()
   country_table = open_table(db, COUNTRIES_TABLE_PATH)
   country_table.delete(country)
   country_table.flush()
+
+  # Kill the web server process
+  logging.debug("Killing locafront for {}".format(country))
   command_line = "pkill -f " + country
   os.system(command_line)
+  
+  # Retrieves the list of the source streams
+  source_streams = os.listdir("/mapr/" + cluster_name + "/countries/" + country + "/streams/")
+
+  # Delete replica streams
+  for s in source_streams:
+    logging.debug("Deleting stream {}".format(s))
+    command_line = "rm -f /mapr/" + cluster_name + "/streams/" + s
+    os.system(command_line)
+
+  # Delete source streams
   command_line = "rm -rf /mapr/" + cluster_name + "/countries/" + country
   os.system(command_line)
+
   return "{} killed".format(country)
+
+
+
+# Start existing countries
+db = open_db()
+country_table = open_table(db, COUNTRIES_TABLE_PATH)
+for c in country_table.find():
+  country = c["_id"]
+  port = c["port"]
+  logging.debug("Starting localfront for {}".format(country))
+  command_line = "python3 /mapr/" + cluster_name + "/source/demobdp2018/localfront.py --country " + country + " --port " + str(port) + " &"
+  os.system(command_line)
 
 
 

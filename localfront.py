@@ -171,10 +171,18 @@ def get_all_streams():
 def launch_container():
   new_city = request.form['city']
   traffic = random.randint(10,100)
-  command_line = "python3 /mapr/global.mapr.com/source/demobdp2018/carwatch.py --country " + country + " --city " + new_city + " --traffic " + str(traffic) + " &"
+  command_line = "python3 /mapr/" + cluster_name + "/source/demobdp2018/carwatch.py --country " + country + " --city " + new_city + " --traffic " + str(traffic) + " &"
   os.system(command_line)
   return "New city deployed"
 
+
+
+# Starts existing producers
+for city in os.listdir("/mapr/" + cluster_name + "/countries/" + country + "/streams/"):
+  traffic = random.randint(10,100)
+  command_line = "python3 /mapr/" + cluster_name + "/source/demobdp2018/carwatch.py --country " + country + " --city " + city + " --traffic " + str(traffic) + " &"
+  logging.debug(command_line)
+  os.system(command_line)
 
 update_consumers()
 app.run(debug=False,host='0.0.0.0',port=port)

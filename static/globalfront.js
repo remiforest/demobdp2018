@@ -153,6 +153,7 @@ function update_stream_selector(){
 
 
 function update_events(){
+    console.log("updating events");
     $.ajax({
         url: 'get_events_count',
         type: 'get',
@@ -162,22 +163,19 @@ function update_events(){
             new_count = JSON.parse(data).count;
             console.log("new count : " + new_count);
             $("#event_count").data("count",new_count);
-
-            $('.counter-count').each(function () {
-            $(this).prop('Counter',current_count).animate({
+            $("#event_count").prop('Counter',current_count).animate({
                     Counter: new_count
                 }, {
-                    duration: 15000,
+                    duration: 5000,
                     easing: 'linear',
                     step: function (now) {
                         $(this).text(Math.ceil(now));
                     }
                 });
-            });
             
             setTimeout(function(){
                 update_events();
-              }, 1000 * 15);
+              }, 1000 * 5);
         }
     });
 
