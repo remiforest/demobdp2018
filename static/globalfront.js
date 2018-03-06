@@ -4,6 +4,9 @@ var count=true;
 var title_desc = "count"
 var consolidate = true;
 var updating_charts = true;
+var update_chart_timer = 2;
+var update_streams_timer = 5;
+var update_counter_timer = 1;
 
 function contains(array,string){
     var in_array = false; 
@@ -19,13 +22,15 @@ function contains(array,string){
 
 
 function create_charts(){
-    console.log("create charts for " + cities + "(consolidate = "+consolidate+")");
     if (consolidate){
         if (!$("#Global").length){create_chart("Global");}
     }else{
         for (var i=0;i<cities.length;i++){
             var city = cities[i];
-            if (!$("#"+city).length){create_chart(city);}
+            if (!$("#"+city).length){
+                console.log("creating chart for " + city);
+                create_chart(city);
+            }
         }
     }
 }
@@ -61,7 +66,7 @@ function create_chart(city){
 
 function update_charts(){
     updating_charts = false;
-    console.log("update charts for " + cities + "(consolidate = "+consolidate+")");
+    // console.log("update charts for " + cities + "(consolidate = "+consolidate+")");
     // Create missing charts if needed
     create_charts();
     $.ajax({
@@ -69,9 +74,8 @@ function update_charts(){
         type: 'post',
         data:{"cities":JSON.stringify(cities),"consolidate":consolidate,"count":count},
         success:function(data){
-            console.log(data);
             loaded_data = JSON.parse(data);
-            console.log()
+
             // Iterate over object
             $.each(loaded_data,function(key,value){
                 // get chart
@@ -82,7 +86,7 @@ function update_charts(){
                     // get and update values
                     if (chart){
                         var chart_data = chart.series[0].data;
-                        //console.log(chart_data);
+
                         for (var i = 0; i < chart_data.length; i++) {
                             category = chart_data[i].category;
                             categories.push(category);
@@ -111,7 +115,7 @@ function update_charts(){
             updating_charts = true;
             setTimeout(function(){
                 update_charts();
-              }, 1000 * 2);
+              }, 1000 * update_chart_timer);
         }
     });
 }
@@ -124,14 +128,13 @@ function update_stream_selector(){
         url: 'get_all_streams',
         type: 'get',
         success:function(data){
-            console.log("available streams : " + data);
             var available_cities = JSON.parse(data);
             for (var i=0;i<available_cities.length;i++){
                 var city = available_cities[i];
                 if (! contains(selector_cities,city)){
-                    if ($("#all_streams").is(':checked')){ checked = 'checked="checked"'}else{checked=""}
-                    
-                    $("#stream_selector").append($( "<span id='" + city + "_selector'><input class='city' type='checkbox' data-city='"+city+"' name='stream' value='city' "+ checked + " > " + city + "</span><p>"));
+                    if ($("#all_streams").is(':checked')){ checked = 'checked="checked"'}else{checked=""}                    
+                    $("#stream_selector").append($( "<span id='" + city + "_selector'><input class='city' type='checkbox' data-city='" + city + 
+                        "' name='stream' value='city' "+ checked + " > " + city + "</span><p>"));
                     selector_cities.push(city);
                     if (checked){cities.push(city);}
                 }
@@ -141,11 +144,15 @@ function update_stream_selector(){
                 if (! contains(available_cities,city)){
                     $("#" + city + "_selector").remove();
                     $("#" + city).remove();
+                    var index = cities.indexOf(city);
+                    if (index > -1) {
+                        cities.splice(index, 1);
+                    }
                 }
             }
             setTimeout(function(){
                 update_stream_selector();
-              }, 1000 * 5);
+              }, 1000 * update_streams_timer);
         }
     });
 }
@@ -153,32 +160,34 @@ function update_stream_selector(){
 
 
 function update_events(){
-    console.log("updating events");
     $.ajax({
         url: 'get_events_count',
         type: 'get',
         success:function(data){
             var current_count = $("#event_count").data("count");
-            console.log("current count : " + current_count);
             new_count = JSON.parse(data).count;
             console.log("new count : " + new_count);
-            $("#event_count").data("count",new_count);
-            $("#event_count").prop('Counter',current_count).animate({
-                    Counter: new_count
-                }, {
-                    duration: 5000,
-                    easing: 'linear',
-                    step: function (now) {
-                        $(this).text(Math.ceil(now));
-                    }
-                });
-            
-            setTimeout(function(){
-                update_events();
-              }, 1000 * 5);
+            if (new_count != current_count){
+                $("#event_count").data("count",new_count);
+                $("#event_count").prop('Counter',current_count).animate(
+                    {
+                        Counter: new_count
+                    },
+                    {
+                        duration: update_counter_timer * 1000,
+                        easing: 'linear',
+                        step: function (now) {
+                            $(this).text(Math.ceil(now));
+                        }
+                    });
+                setTimeout(function(){
+                    update_events();
+                  }, 1000 * update_counter_timer);
+            }else{
+            update_events();
+            }
         }
     });
-
 }
 
 
@@ -186,13 +195,11 @@ $("#deploy_new_country_btn").click(function(){
   var new_country = $("#new_country").val();
   console.log("deploying new country : " + new_country);
   $("#deploy_new_country_btn").text("Deploying ...");
-
   $.ajax({
       url: 'deploy_new_country',
       type: 'post',
       data: {"country":new_country},
       success:function(data){
-          console.log(data);
           get_countries();
           $("#new_country").val("");
           $("#deploy_new_country_btn").text("Deploy");
@@ -206,13 +213,9 @@ function get_countries(){
         url: 'get_countries',
         type: 'get',
         success:function(data){
-            console.log(data);
             var countries = JSON.parse(data)["countries"];
-            console.log(countries);
             $("#countries").html("");
             for(var i=0;i<countries.length;i++){
-                console.log(countries[i]._id);
-                console.log(countries[i].port);
                 $("#countries").append("<div class='row'><div class='col-md-9'><a href=http://global:" + countries[i].port + " target='_blank'>" + countries[i]._id + "</a></div>" +
                                        "<div class='col-md-3'><a href='#' data-country='" + countries[i]._id + "' class='remove_country text-danger float-right' > x</a></div></div>");
             }
@@ -224,14 +227,75 @@ function get_countries(){
 $("#countries").on('click',".remove_country",function(){
   var country = $(this).data('country');
   console.log("removing country : " + country);
-  
   $.ajax({
       url: 'remove_country',
       type: 'post',
       data: {"country":country},
       success:function(data){
-          console.log(data);
           get_countries();
       }
   });
 })
+
+
+$(".radio-inline").change(function(){
+  count = $("#count_radio").is(':checked');
+  if (count){title_desc = "count"}else{title_desc = "emissions"}
+  consolidate = $("#consolidate_radio").is(':checked');
+  $("#charts").empty();
+  create_charts()
+});
+
+$("#stream_selector").change(function(e){
+  cities = []
+  if(e.target.id == "all_streams"){
+    if (e.target.checked){
+      $('#stream_selector :input').prop('checked', true);  
+    }else{
+      $('#stream_selector :input').prop('checked', false); 
+    }
+  }else{
+    if (! e.target.checked){
+      $('#all_streams').prop('checked', false); 
+    }
+  }
+
+  $(".city").each(function(){
+      if(this.checked == true){
+          console.log(this);
+          input_city = $(this).data("city")
+          if (input_city != "all"){
+            cities.push(input_city);
+          }
+      }
+  });
+
+  $("#charts").empty();
+  create_charts();
+  if (!updating_charts){
+    update_charts();
+  }
+
+});
+
+
+$("#replicate_streams").click(function(){
+    $("#replicate_streams").text("Replicating ...");
+    $.ajax({
+        url: 'replicate_streams',
+        type: 'get',
+        success:function(data){
+            setTimeout(function(){
+              $("#replicate_streams").text("Replicate streams");
+            }, 1000 * 10);
+          }
+    });
+});
+
+$( document ).ready(function() {;
+  console.log("ready")
+  update_stream_selector();
+  update_charts();
+  update_events();
+  get_countries();
+});

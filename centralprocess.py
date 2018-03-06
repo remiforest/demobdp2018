@@ -64,7 +64,7 @@ def update_consumers():
   # adding new consumers
   for stream in streams:
     if not stream in consumers:
-      consumers[stream] = Consumer({'group.id': "global_process_group",'default.topic.config': {'auto.offset.reset': 'earliest'}})
+      consumers[stream] = Consumer({'group.id': "global_process_group",'default.topic.config': {'auto.offset.reset': 'latest'}})
       consumers[stream].subscribe([stream+":default_topic"])
       logging.debug("subscribed to {}:{}".format(stream,"default_topic"))
 
@@ -73,7 +73,8 @@ def update_consumers():
 
 while True:
     update_consumers()
-    new_count = 0
+    loop_count = 0
+    buffer_count = 0
     for stream, consumer in consumers.items():
         running = True
         logging.debug("polling {}".format(stream))
@@ -86,26 +87,40 @@ while True:
             if not msg.error():
               document = json.loads(msg.value().decode("utf-8"))
               model = document["model"]
-              # logging.debug(model)
               gkm = gkm_table.find_by_id(model)["gkm"]
               document["gkm"] = gkm
               document["_id"] = str(time.time())
               newdoc = maprdb.Document(document)
               t.insert_or_replace(newdoc)
               stream_count += 1
+              buffer_count += 1
+              if buffer_count % 100 == 0:
+                try:
+                  last_count = count_table.find_by_id("total_count")["count"]
+                except:
+                  last_count = 0
+                new_count = last_count + buffer_count
+                count_doc = {"_id":"total_count","count":new_count}
+                count_table.insert_or_replace(maprdb.Document(count_doc))
+                count_table.flush()
+                # logging.debug("new count : {}".format(new_count))
+                buffer_count = 0
+
         logging.debug("pulled {} events from {}".format(stream_count,stream))
+        loop_count += stream_count
+
         try:
           last_count = count_table.find_by_id("total_count")["count"]
         except:
           last_count = 0
-        new_count = last_count + stream_count
+        new_count = last_count + buffer_count
         count_doc = {"_id":"total_count","count":new_count}
         count_table.insert_or_replace(maprdb.Document(count_doc))
         count_table.flush()
 
     t.flush()
-    time.sleep(1)
+    # time.sleep(1)
 
-    logging.debug("Total event pulled : {}".format(new_count))
+    logging.debug("Events pulled dring last iteration : {}".format(loop_count))
 
     
