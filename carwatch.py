@@ -114,7 +114,7 @@ def generate_color_distribution():
 
 
 model_distrib = generate_models_distribution()
-color_distrib = generate_models_distribution()
+color_distrib = generate_color_distribution()
 
 
 logging.debug("Injecting ...")

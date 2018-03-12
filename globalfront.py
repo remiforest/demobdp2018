@@ -23,7 +23,11 @@ with open('/opt/mapr/conf/mapr-clusters.conf', 'r') as f:
 
 # Global variables
 consumers = {}  # List of active stream consumers
-streams_path = '/mapr/' + cluster_name + '/streams/'   # Streams directory
+global_consumers = {}  # List of active global stream consumers
+country_consumers = {}  # List of active country stream consumers
+streams_path = '/mapr/' + cluster_name + '/streams/'   # Global streams directory
+global_streams_path = '/mapr/' + cluster_name + '/streams/'   # Global streams directory
+countries_path = '/mapr/' + cluster_name + '/countries/'   # Countries directory
 GKM_TABLE_PATH = '/mapr/' + cluster_name + '/tables/cargkm'  # Path for the table that stores GKM information
 COUNT_TABLE_PATH = '/mapr/' + cluster_name + '/tables/count'  # Path for the table that stores GKM information
 COUNTRIES_TABLE_PATH = '/mapr/' + cluster_name + '/tables/countries'  # Path for the table that stores GKM information
@@ -55,6 +59,19 @@ def get_available_streams(streams_path): # returns a list with full path of all 
   for f in os.listdir(streams_path):
     if os.path.islink(streams_path + f):
       streams.append(streams_path + f)
+  return streams
+
+def get_global_streams(): # returns a list with full path of all streams available in the stream path
+  streams = []
+  for f in os.listdir(global_streams_path):
+    if os.path.islink(global_streams_path + f):
+      streams.append(global_streams_path + f)
+  return streams
+
+def get_country_streams(): # returns a list with full path of all streams available in the stream path
+  streams = []
+  for country in os.listdir(countries_path):
+    streams.extend(get_available_streams(countries_path + country + "/streams/"))
   return streams
 
 def get_cities(streams_path): # returns a list of all the cities available (each city is a stream)
@@ -98,6 +115,59 @@ def update_consumers(): # Updates the active consumers
   # logging.debug(consumers)
 
 
+def update_global_consumers(): # Updates the active global consumers
+  global global_consumers
+
+  streams = get_global_streams()
+
+  # clean consumers
+  consumers_to_remove = []
+  for stream,consumer in global_consumers.items():
+    if stream not in streams:
+      consumers_to_remove.append(stream)
+  if len(consumers_to_remove):
+    # logging.debug("consumers to remove :")
+    # logging.debug(consumers_to_remove)
+    for consumer_to_remove in consumers_to_remove:
+      global_consumers[consumer_to_remove].close()
+      del global_consumers[consumer_to_remove]
+
+  # creating new consumers
+  for stream in streams:
+    if not stream in global_consumers:
+      logging.debug("subscribing to {}:{}".format(stream,"default_topic"))
+      group = str(time.time())
+      global_consumers[stream] = Consumer({'group.id': group,'default.topic.config': {'auto.offset.reset': 'earliest'}})
+      global_consumers[stream].subscribe([stream+":default_topic"])
+      logging.debug("subscribed to {}:{}".format(stream,"default_topic"))
+
+
+def update_country_consumers(): # Updates the active global consumers
+  global country_consumers
+
+  streams = get_country_streams()
+
+  # clean consumers
+  consumers_to_remove = []
+  for stream,consumer in country_consumers.items():
+    if stream not in streams:
+      consumers_to_remove.append(stream)
+  if len(consumers_to_remove):
+    # logging.debug("consumers to remove :")
+    # logging.debug(consumers_to_remove)
+    for consumer_to_remove in consumers_to_remove:
+      country_consumers[consumer_to_remove].close()
+      del country_consumers[consumer_to_remove]
+
+  # creating new consumers
+  for stream in streams:
+    if not stream in country_consumers:
+      logging.debug("subscribing to {}:{}".format(stream,"default_topic"))
+      group = str(time.time())
+      country_consumers[stream] = Consumer({'group.id': group,'default.topic.config': {'auto.offset.reset': 'earliest'}})
+      country_consumers[stream].subscribe([stream+":default_topic"])
+      logging.debug("subscribed to {}:{}".format(stream,"default_topic"))
+
 
 
 app = Flask(__name__)
@@ -117,6 +187,15 @@ def dnd():
 
 
 ######  AJAX functions  ######
+
+@app.route('/launch_carwatch',methods = ['POST'])
+def launch_carwatch(): # Launch carwatch for a given country
+  country = request.form["country"]
+  traffic = random.randint(10,100)
+  command_line = "python3 /mapr/" + cluster_name + "/source/demobdp2018/carwatch.py --country " + country + " --city " + country + " --traffic " + str(traffic) + " &"
+  os.system(command_line)
+  return "{} carwatch launched".format(country)
+
 
 @app.route('/get_stream_data',methods = ['POST'])
 def get_stream_data(): # Returns all stream data since last poll
@@ -204,6 +283,73 @@ def get_stream_data(): # Returns all stream data since last poll
 
   return json.dumps(stream_data)
 
+
+
+###############################################
+###############################################
+###############################################
+###############################################
+
+@app.route('/get_country_stream_data',methods = ['GET'])
+def get_country_stream_data(): # Returns all stream data since last poll
+  logging.debug("get country stream data")
+
+  # Variables definition
+  global country_consumers
+  update_country_consumers()
+
+  # data results for each stage
+  raw_data = {}
+  count_data = {}
+  stream_data = {}
+
+  # Poll new vehicles from all the streams
+  for stream, consumer in country_consumers.items():
+    raw_data[stream] = {}
+    running = True
+    logging.debug("polling {}".format(stream))
+    while running:
+      msg = consumer.poll(timeout=1.0)
+      if msg is None:
+        running = False
+      else:
+        if not msg.error():
+          document = json.loads(msg.value().decode("utf-8"))
+          model = document["model"]
+          if model in raw_data[stream]:
+            raw_data[stream][model] += 1
+          else:
+            raw_data[stream][model] = 1
+        elif msg.error().code() != KafkaError._PARTITION_EOF:
+          print(msg.error())
+          running = False
+        else:
+          running = False
+
+
+  for stream,data in raw_data.items():
+    count_data[stream.split('/')[-1]] = data
+
+  stream_data = count_data
+
+
+  return json.dumps(stream_data)
+
+
+
+
+
+
+###############################################
+###############################################
+###############################################
+###############################################
+
+
+
+
+
+
 @app.route('/get_all_streams',methods = ['POST','GET'])
 def get_all_streams(): # Returns the list of all available stream names
   return json.dumps(get_cities(streams_path))
@@ -278,7 +424,12 @@ def deploy_country():
     os.system(command_line)
     country_table.insert_or_replace(maprdb.Document(count_doc))
     country_table.flush()
+
+    traffic = random.randint(10,100)
+    command_line = "python3 /mapr/" + cluster_name + "/source/demobdp2018/carwatch.py --country " + new_country + " --city " + new_country + " --traffic " + str(traffic) + " &"
+    os.system(command_line)
     return "New country deployed"
+
 
 @app.route('/remove_country',methods=['POST'])
 def remove_country():

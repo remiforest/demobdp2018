@@ -58,6 +58,7 @@ function create_chart(city){
             }
         },
         series: [{
+            showInLegend: false, 
             data: []
         }]
     });

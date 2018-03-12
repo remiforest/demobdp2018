@@ -5,9 +5,9 @@ body {
 }
 
 .border-visible {
-  border-color: black;
+/*  border-color: black;
   border-width: 1px;
-  border-style: solid;
+  border-style: solid;*/
 }
 
 #north-america {
@@ -256,7 +256,7 @@ body {
 #europe_charts  {
   position: fixed;
   top: 10px;
-  left: 750px;
+  left: 780px;
   width: 300px;
   height: 200px;
 }
@@ -264,7 +264,12 @@ body {
 #australia_charts  {
   position: fixed;
   top: 500px;
-  left: 650px;
+  left: 725px;
   width: 300px;
   height: 200px;
 }
+
+.country_charts  {
+    display: none;
+}
+
