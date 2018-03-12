@@ -110,6 +110,10 @@ app = Flask(__name__)
 def home():
   return render_template('globalfront.html')
 
+@app.route('/dnd')
+def dnd():
+  return render_template('dnd.html')
+
 
 
 ######  AJAX functions  ######
@@ -204,6 +208,19 @@ def get_stream_data(): # Returns all stream data since last poll
 def get_all_streams(): # Returns the list of all available stream names
   return json.dumps(get_cities(streams_path))
 
+@app.route('/get_active_streams',methods = ['POST','GET'])
+def get_active_streams(): # Returns the list of all available stream names
+  active_streams = []
+  country_list = os.listdir("/mapr/" + cluster_name + "/countries/")
+  for country in country_list:
+    if len(get_cities("/mapr/" + cluster_name + "/countries/" + country + "/streams/")) > 0:
+      active_streams.append(country)
+  return json.dumps(active_streams)
+
+@app.route('/get_deployed_countries',methods = ['GET'])
+def get_deployed_countries(): # Returns the list of all available stream names
+  deployed_countries = os.listdir("/mapr/" + cluster_name + "/countries/")
+  return json.dumps(deployed_countries)
 
 @app.route('/replicate_streams') 
 def replicate_streams():  # Replicate all stream to the stream_path directory
@@ -217,6 +234,7 @@ def replicate_streams():  # Replicate all stream to the stream_path directory
     logging.debug(command_line)
     os.system(command_line)
   return "Done"
+
 
 
 @app.route('/get_events_count')
@@ -249,10 +267,12 @@ def deploy_country():
     return "Country already deployed"
   except:
     logging.debug("deploying {}".format(new_country))
-    port = 8000
-    for c in country_table.find():
-      port = max(port,c["port"])
-    port += 1
+    if country == "north-america":
+      port = 8080
+    if country == "europe":
+      port = 8081
+    if country == "australia":
+      port = 8082
     count_doc = {"_id":new_country,"port":port}
     command_line = "python3 /mapr/" + cluster_name + "/source/demobdp2018/localfront.py --country " + new_country + " --port " + str(port) + " &"
     os.system(command_line)
