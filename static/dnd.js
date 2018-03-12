@@ -76,6 +76,7 @@ function display_streams(){
               $("#replicate_streams").show();
             }else{
               $("#replicate_streams").hide();
+              $("#global_streams").hide();
             }
             setTimeout(function(){
                 display_streams();
