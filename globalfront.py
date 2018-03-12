@@ -267,11 +267,11 @@ def deploy_country():
     return "Country already deployed"
   except:
     logging.debug("deploying {}".format(new_country))
-    if country == "north-america":
+    if new_country == "north-america":
       port = 8080
-    if country == "europe":
+    if new_country == "europe":
       port = 8081
-    if country == "australia":
+    if new_country == "australia":
       port = 8082
     count_doc = {"_id":new_country,"port":port}
     command_line = "python3 /mapr/" + cluster_name + "/source/demobdp2018/localfront.py --country " + new_country + " --port " + str(port) + " &"
