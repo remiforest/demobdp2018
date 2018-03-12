@@ -116,9 +116,9 @@ function display_countries(){
                   $("#" + value + "_docker_image").show();
                 }
             });
-            $.each(active_streams,function(index,value){
+            $.each(deployed_countries,function(index,value){
                 // get chart
-                if (!contains(deployed_countries,value)){
+                if (!contains(current_countries,value)){
                   $("#" + value + "_docker_image").hide();
                 }
             });
