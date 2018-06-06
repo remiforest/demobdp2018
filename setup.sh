@@ -11,3 +11,5 @@ yum install -y python34-devel.x86_64
 easy_install-3.4 pip
 yum install -y gcc-c++
 pip3 install maprdb
+pip3 install flask==0.12.2
+pip3 install confluent_kafka
