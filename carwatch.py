@@ -8,7 +8,7 @@ import os
 import argparse
 import logging
 # from mapr_streams_python import Producer
-from confluent_kafka import Consumer, KafkaError
+from confluent_kafka import Producer 
 
 parser = argparse.ArgumentParser(description='Launch a car stream producer')
 parser.add_argument('--country',help='collector country')
