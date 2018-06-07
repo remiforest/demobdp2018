@@ -7,7 +7,8 @@ import json
 import time
 import random
 from flask import Flask, render_template, request
-from mapr_streams_python import Consumer, KafkaError
+# from mapr_streams_python import Consumer, KafkaError
+from confluent_kafka import Consumer, KafkaError
 import maprdb
 import logging
 
@@ -192,7 +193,7 @@ def dnd():
 def launch_carwatch(): # Launch carwatch for a given country
   country = request.form["country"]
   traffic = random.randint(10,100)
-  command_line = "python3 /mapr/" + cluster_name + "/source/demobdp2018/carwatch.py --country " + country + " --city " + country + " --traffic " + str(traffic) + " &"
+  command_line = "python3 /mapr/" + cluster_name + "/demobdp2018/carwatch.py --country " + country + " --city " + country + " --traffic " + str(traffic) + " &"
   os.system(command_line)
   return "{} carwatch launched".format(country)
 
@@ -375,7 +376,7 @@ def replicate_streams():  # Replicate all stream to the stream_path directory
   logging.debug(country_list)
   for country in country_list:
     logging.debug("replicating streams from {}".format(country))
-    command_line = '/mapr/' + cluster_name + '/source/demobdp2018/replicateStream.sh -s /mapr/' + cluster_name + '/countries/' + country + '/streams/ -t ' + streams_path
+    command_line = '/mapr/' + cluster_name + '/demobdp2018/replicateStream.sh -s /mapr/' + cluster_name + '/countries/' + country + '/streams/ -t ' + streams_path
     logging.debug("command line : ")
     logging.debug(command_line)
     os.system(command_line)
@@ -420,13 +421,13 @@ def deploy_country():
     if new_country == "australia":
       port = 8082
     count_doc = {"_id":new_country,"port":port}
-    command_line = "python3 /mapr/" + cluster_name + "/source/demobdp2018/localfront.py --country " + new_country + " --port " + str(port) + " &"
+    command_line = "python3 /mapr/" + cluster_name + "/demobdp2018/localfront.py --country " + new_country + " --port " + str(port) + " &"
     os.system(command_line)
     country_table.insert_or_replace(maprdb.Document(count_doc))
     country_table.flush()
 
     traffic = random.randint(10,100)
-    command_line = "python3 /mapr/" + cluster_name + "/source/demobdp2018/carwatch.py --country " + new_country + " --city " + new_country + " --traffic " + str(traffic) + " &"
+    command_line = "python3 /mapr/" + cluster_name + "/demobdp2018/carwatch.py --country " + new_country + " --city " + new_country + " --traffic " + str(traffic) + " &"
     os.system(command_line)
     return "New country deployed"
 
@@ -462,7 +463,7 @@ def remove_country():
   return "{} killed".format(country)
 
 
-
+"""
 # Start existing countries
 db = open_db()
 country_table = open_table(db, COUNTRIES_TABLE_PATH)
@@ -470,9 +471,9 @@ for c in country_table.find():
   country = c["_id"]
   port = c["port"]
   logging.debug("Starting localfront for {}".format(country))
-  command_line = "python3 /mapr/" + cluster_name + "/source/demobdp2018/localfront.py --country " + country + " --port " + str(port) + " &"
+  command_line = "python3 /mapr/" + cluster_name + "/demobdp2018/localfront.py --country " + country + " --port " + str(port) + " &"
   os.system(command_line)
-
+"""
 
 
 update_consumers()

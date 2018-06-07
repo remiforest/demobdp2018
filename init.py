@@ -47,6 +47,10 @@ command_line = "sudo mkdir /mapr/" + cluster_name + "/countries"
 print(command_line)
 os.system(command_line)
 
+command_line = "sudo rm -rf logs"
+print(command_line)
+os.system(command_line)
+
 command_line = "sudo mkdir logs/"
 print(command_line)
 os.system(command_line)
