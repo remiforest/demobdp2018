@@ -7,7 +7,6 @@ import json
 import time
 import random
 from flask import Flask, render_template, request
-# from mapr_streams_python import Consumer, KafkaError
 from confluent_kafka import Consumer, KafkaError
 import maprdb
 import logging

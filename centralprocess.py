@@ -6,13 +6,19 @@ import time
 import sys
 import maprdb
 import logging
-from mapr_streams_python import Consumer, KafkaError
+from confluent_kafka import Consumer, KafkaError
 
-streams_path = '/mapr/global.mapr.com/streams/'
+# Retrieves current cluster name
+with open('/opt/mapr/conf/mapr-clusters.conf', 'r') as f:
+    first_line = f.readline()
+    cluster_name = first_line.split(' ')[0]
+    logging.debug('Cluster name : {}'.format(cluster_name))
 
-RAW_TABLE_PATH = "/mapr/global.mapr.com/tables/raw"
-GKM_TABLE_PATH = "/mapr/global.mapr.com/tables/cargkm"
-COUNT_TABLE_PATH = "/mapr/global.mapr.com/tables/count"
+streams_path = '/mapr/' + cluster_name + '/streams/'
+
+RAW_TABLE_PATH = "/mapr/' + cluster_name + '/tables/raw"
+GKM_TABLE_PATH = "/mapr/' + cluster_name + '/tables/cargkm"
+COUNT_TABLE_PATH = "/mapr/' + cluster_name + '/tables/count"
 
 logging.basicConfig(filename='logs/centralprocess.log',level=logging.DEBUG)
 
