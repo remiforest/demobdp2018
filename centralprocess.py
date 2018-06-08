@@ -16,9 +16,9 @@ with open('/opt/mapr/conf/mapr-clusters.conf', 'r') as f:
 
 streams_path = '/mapr/' + cluster_name + '/streams/'
 
-RAW_TABLE_PATH = "/mapr/' + cluster_name + '/tables/raw"
-GKM_TABLE_PATH = "/mapr/' + cluster_name + '/tables/cargkm"
-COUNT_TABLE_PATH = "/mapr/' + cluster_name + '/tables/count"
+RAW_TABLE_PATH = '/mapr/' + cluster_name + '/tables/raw'
+GKM_TABLE_PATH = '/mapr/' + cluster_name + '/tables/cargkm'
+COUNT_TABLE_PATH = '/mapr/' + cluster_name + '/tables/count'
 
 logging.basicConfig(filename='logs/centralprocess.log',level=logging.DEBUG)
 

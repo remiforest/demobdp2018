@@ -1,4 +1,4 @@
 #!/bin/bash
-python3 centralprocess.py &
-python3 globalfront.py &
+sudo python3 centralprocess.py &
+sudo python3 globalfront.py &
 

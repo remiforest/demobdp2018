@@ -48,6 +48,15 @@ command_line = "sudo maprcli table create -path /tables/count -tabletype json"
 print(command_line)
 os.system(command_line)
 
+command_line = "sudo maprcli table create -path /tables/raw -tabletype json"
+print(command_line)
+os.system(command_line)
+
+command_line = "sudo maprcli table create -path /tables/countries -tabletype json"
+print(command_line)
+os.system(command_line)
+
+
 command_line = "sudo rm -rf /mapr/" + cluster_name + "/streams"
 print(command_line)
 os.system(command_line)

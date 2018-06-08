@@ -1,5 +1,5 @@
 #!/bin/bash
-pkill -f centralprocess
-pkill -f carwatch
-pkill -f localfront
-pkill -f globalfront
+sudo pkill -f centralprocess
+sudo pkill -f carwatch
+sudo pkill -f localfront
+sudo pkill -f globalfront
